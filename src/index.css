@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.imagen {
+  background-image: url(./assets/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+}
+@media (min-width: 769px) {
+  .imagen {
+    height: auto;
+  }   
+}
+
+div nav button.actual {
+  background-color: rgb(147 51 234);
+  color: rgb(229 231 235);
+}
+div nav button.actual:hover {
+  background-color: rgb(107 33 168);
+  color: rgb(229 231 235);
+}
+
+.seleccionado {
+  background-color: rgb(147 51 234);
+  color: rgb(229 231 235);
+}
+.seleccionado p {
+  color: rgb(229 231 235);
+}
